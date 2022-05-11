@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkTezkel"]=self["webpackChunkTezkel"]||[]).push([[595],{2595:function(e,r,a){a.r(r),a.d(r,{default:function(){return l}});var n=a(6252);function s(e,r,a,s,t,u){const o=(0,n.up)("base-layout");return(0,n.wg)(),(0,n.j4)(o,{"page-title":"Настройка уведомлений","page-default-back-link":"/user-dashboard",errorMessage:e.error},null,8,["errorMessage"])}var t={name:"UserNotifications"},u=a(3744);const o=(0,u.Z)(t,[["render",s]]);var l=o}}]);
+//# sourceMappingURL=595.c0ed97d9.js.map
