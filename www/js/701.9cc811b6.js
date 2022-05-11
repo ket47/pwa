@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkblank"]=self["webpackChunkblank"]||[]).push([[701],{9701:function(e,r,a){a.r(r),a.d(r,{default:function(){return o}});var n=a(6252);function u(e,r,a,u,s,t){const l=(0,n.up)("base-layout");return(0,n.wg)(),(0,n.j4)(l,{"page-title":"Помощь","page-default-back-link":"/user-dashboard",errorMessage:e.error},null,8,["errorMessage"])}var s={name:"HelpPage"},t=a(3744);const l=(0,t.Z)(s,[["render",u]]);var o=l}}]);
+//# sourceMappingURL=701.9cc811b6.js.map
