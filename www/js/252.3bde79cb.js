@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkTezkel"]=self["webpackChunkTezkel"]||[]).push([[252],{5789:function(e,r,a){a.r(r),a.d(r,{default:function(){return o}});var n=a(6252);function s(e,r,a,s,u,t){const l=(0,n.up)("base-layout");return(0,n.wg)(),(0,n.j4)(l,{"page-title":"Избранное","page-default-back-link":"/user-dashboard",errorMessage:e.error},null,8,["errorMessage"])}var u={name:"UserFavourites"},t=a(3744);const l=(0,t.Z)(u,[["render",s]]);var o=l}}]);
-//# sourceMappingURL=252.3bde79cb.js.map
