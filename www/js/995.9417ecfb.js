@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunktezkel_delivery"]=self["webpackChunktezkel_delivery"]||[]).push([[995],{9995:function(e,t,a){a.r(t),a.d(t,{default:function(){return d}});var r=a(6252);function u(e,t,a,u,n,c){const l=(0,r.up)("base-layout");return(0,r.wg)(),(0,r.j4)(l,{"page-title":"Категория","page-default-back-link":"/home"})}var n={data(){return{categoryId:null}},computed:{},watch:{$route(e){this.categoryId=e.params.id}}},c=a(3744);const l=(0,c.Z)(n,[["render",u]]);var d=l}}]);
+//# sourceMappingURL=995.9417ecfb.js.map

@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunktezkel_delivery"]=self["webpackChunktezkel_delivery"]||[]).push([[789],{5789:function(e,r,a){a.r(r),a.d(r,{default:function(){return o}});var t=a(6252);function n(e,r,a,n,s,u){const l=(0,t.up)("base-layout");return(0,t.wg)(),(0,t.j4)(l,{"page-title":"Избранное","page-default-back-link":"/user-dashboard",errorMessage:e.error},null,8,["errorMessage"])}var s={name:"UserFavourites"},u=a(3744);const l=(0,u.Z)(s,[["render",n]]);var o=l}}]);
-//# sourceMappingURL=789.603e0ff0.js.map
