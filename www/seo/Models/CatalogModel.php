@@ -18,7 +18,6 @@ class CatalogModel{
                 store_name,
                 store_description,
                 store_phone,
-                store_company_name,
                 location_address,
                 image_hash,
                 store_list.updated_at
@@ -102,7 +101,6 @@ class CatalogModel{
                 product_name,
                 product_description,
                 product_barcode,
-                product_weight,
                 store_id,
                 store_name,
                 product_price,
