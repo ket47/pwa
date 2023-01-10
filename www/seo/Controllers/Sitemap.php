@@ -3,6 +3,7 @@ namespace Controllers;
 
 
 class Sitemap{
+    private $siteMapService;
     function index(){
         $this->siteMapService=new SiteMapService(getenv('app.frontendURL'));
         $this->siteMapService->setPath('../');
