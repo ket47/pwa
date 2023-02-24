@@ -35,4 +35,5 @@ messaging.onBackgroundMessage(async (payload) => {
     }
     return self.registration.showNotification(notificationTitle,notificationOptions);
   }
+  return self.registration.showNotification(payload.title,payload);
 });
