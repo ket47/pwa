@@ -162,9 +162,17 @@ class Sitemap{
 
     private $googleBlackList = [
         'stores' => [
+            61, //4eburekMi
+            63, //Simfero
+            82, //Elsel Flowers
             99, //Farmer
             53, //Dobry kuhar
-            82, //Elsel Flowers
+            115,//Dobry kuhar Cankoy
+            116,//Dobry kuhar Orqapi
+            117,//Dobry kuhar Armyansk
+            113,//Gusto Dolina
+            142,//Sushi Mafia
+            146,//Sady Edema
             121 //Eto vsyo cveto4ki
         ],
         'products' => [2235,2485,2492,2496,2667,2758,3287,4633,6697,6698,6764,7101,7123,8178]
@@ -220,6 +228,7 @@ class Sitemap{
         $xml->endDocument();
         echo $xml->flush();
     }
+    
     public function turboRSSXml($scope = 'store', $page = 0){
         if(!isset($_GET['scope']) || !isset($_GET['page'])){
             return;
@@ -237,7 +246,7 @@ class Sitemap{
             $xml->writeAttribute('xmlns:turbo','http://turbo.yandex.ru');
             $xml->writeAttribute('version','2.0');
                 $xml->startElement('channel');
-                    $xml->writeElement('title',getenv('app.title')." ".$scope." (".(($page)*1000)."-".(($page+1)*1000).")");
+                    $xml->writeElement('title',getenv('app.title')." ".$scope." (".(($page)*300)."-".(($page+1)*300).")");
                     $xml->writeElement('description',getenv('app.description'));
                     $xml->writeElement('link',getenv('app.frontendURL'));
                     $xml = $this->addTurboItemsXml($scope, $xml, $page);
@@ -252,7 +261,7 @@ class Sitemap{
     public function addTurboItemsXml($scope, $xml, $page){
         $Catalog = new \Controllers\Catalog();
         $CatalogModel  =new \Models\CatalogModel();
-        $items = $CatalogModel->{$scope.'ListGet'}(['limit' => 1000, 'page' => $page]);  
+        $items = $CatalogModel->{$scope.'ListGet'}(['limit' => 300, 'page' => $page]);  
         if(empty($items)){
             return false;
         }
