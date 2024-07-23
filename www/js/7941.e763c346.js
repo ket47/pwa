@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkTezkel"]=self["webpackChunkTezkel"]||[]).push([[7941],{7941:function(n,s,e){e.r(s),e.d(s,{Browser:function(){return l},BrowserWeb:function(){return t}});var o=e(6546);class t extends o.E_{constructor(){super(),this._lastWindow=null}async open(n){this._lastWindow=window.open(n.url,n.windowName||"_blank")}async close(){return new Promise(((n,s)=>{null!=this._lastWindow?(this._lastWindow.close(),this._lastWindow=null,n()):s("No active window to close!")}))}}const l=new t}}]);
+//# sourceMappingURL=7941.e763c346.js.map
