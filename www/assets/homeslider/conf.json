@@ -3,18 +3,18 @@
         {
             "title":"",
             "description":"",
-            "alt":"Отдыхай и покупай",
-            "image":"/assets/homeslider/1.jpg",
-            "color":"#009dcd",
-            "link":""
+            "alt":"Пицца в подарок",
+            "image":"/assets/homeslider/pizza_banner.jpg",
+            "color":"#e48608",
+            "link":"/catalog/store-126"
         },
         {
             "title":"",
             "description":"",
-            "alt":"Бесконечные бонусы",
-            "image":"/assets/homeslider/2.jpg",
-            "color":"#009dcd",
-            "link":""
+            "alt":"Дубайский шоколад",
+            "image":"/assets/homeslider/chocolatte_banner.jpg",
+            "color":"#86b855",
+            "link":"/catalog/store-119"
         },
         {
             "title":"",
