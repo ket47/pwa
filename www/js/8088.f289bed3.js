@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunktezkel"]=self["webpackChunktezkel"]||[]).push([[8088],{8088:function(e,t,s){s.r(t),s.d(t,{SafeAreaWeb:function(){return r}});var n=s(6546);class r extends n.E_{async getSafeAreaInsets(){return{insets:{top:0,left:0,right:0,bottom:0}}}async getStatusBarHeight(){return{statusBarHeight:0}}setImmersiveNavigationBar(){throw this.unimplemented("Method not supported on Web.")}}}}]);
+//# sourceMappingURL=8088.f289bed3.js.map
