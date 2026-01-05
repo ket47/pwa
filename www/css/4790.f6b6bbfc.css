@@ -1,0 +1,1 @@
+#printPage{display:none}.print-nonbreakable{page-break-after:avoid;-moz-column-break-inside:avoid;break-inside:avoid}@media print{body #app{display:none}body #printPage{display:contents!important}body #printPage .block{flex:0 0 47%!important}}
