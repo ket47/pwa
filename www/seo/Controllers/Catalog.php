@@ -34,7 +34,7 @@ class Catalog{
         view('store',$context);
     }
     
-    public function storeDataGet($store_id){
+    public function storeDataGet( int $store_id){
         $CatalogModel=new \Models\CatalogModel();
         $store=$CatalogModel->storeItemGet($store_id);
         if(empty($store)){
@@ -68,7 +68,7 @@ class Catalog{
         return $context;
     }
 
-    public function product($product_id = null){
+    public function product(int $product_id = null){
         $product_id ?? (int)func_get_arg(0);
         $context = $this->productDataGet($product_id);
         if(!$context){

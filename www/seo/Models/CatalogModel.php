@@ -164,28 +164,28 @@ class CatalogModel{
     }
 
     public function productItemGet( $product_id ){
-        $sql="
-            SELECT
-                product_id,
-                product_name,
-                product_description,
-                product_barcode,
-                store_id,
-                store_name,
-                product_price,
-                ROUND(IF(IFNULL(`product_promo_price`,0)>0 AND `product_price`>`product_promo_price` AND `product_promo_start` < NOW() AND `product_promo_finish` > NOW(),`product_promo_price`,`product_price`)) product_final_price,
-                image_hash
-            FROM
-                product_list
-                    LEFT JOIN
-                store_list USING(store_id)
-                    LEFT JOIN
-                image_list ON image_holder='product' AND image_holder_id=product_id AND image_list.is_main=1
-            WHERE
-                product_list.is_disabled=0
-                AND product_list.deleted_at IS NULL
-                AND product_id=$product_id
-        ";
+        // $sql="
+        //     SELECT
+        //         product_id,
+        //         product_name,
+        //         product_description,
+        //         product_barcode,
+        //         store_id,
+        //         store_name,
+        //         product_price,
+        //         ROUND(IF(IFNULL(`product_promo_price`,0)>0 AND `product_price`>`product_promo_price` AND `product_promo_start` < NOW() AND `product_promo_finish` > NOW(),`product_promo_price`,`product_price`)) product_final_price,
+        //         image_hash
+        //     FROM
+        //         product_list
+        //             LEFT JOIN
+        //         store_list USING(store_id)
+        //             LEFT JOIN
+        //         image_list ON image_holder='product' AND image_holder_id=product_id AND image_list.is_main=1
+        //     WHERE
+        //         product_list.is_disabled=0
+        //         AND product_list.deleted_at IS NULL
+        //         AND product_id=$product_id
+        // ";
         $sql="
             SELECT
                 pl.product_id,
